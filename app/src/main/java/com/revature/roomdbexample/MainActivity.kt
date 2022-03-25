@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         val customerViewModel=ViewModelProvider(this).get(CustomerViewModel::class.java)
 
         setContent {
